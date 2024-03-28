@@ -1,6 +1,6 @@
 export default function Skills({ skills }) {
   return (
-    <div className="w3-card w3-round w3-white w3-hide-small">
+    <div className="w3-card w3-round w3-white ">
       <div className="w3-container">
         <p>Skills</p>
         <p>

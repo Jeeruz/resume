@@ -18,7 +18,13 @@ const person = {
 };
 
 const experience = [
-  { job_position: "", desc_1: "", desc_2: "", desc_3: "", desc_4: "" },
+  {
+    job_position: "test",
+    desc_1: "test",
+    desc_2: "test",
+    desc_3: "test",
+    desc_4: "test",
+  },
   { job_position: "", desc_1: "", desc_2: "", desc_3: "", desc_4: "" },
   { job_position: "", desc_1: "", desc_2: "", desc_3: "", desc_4: "" },
 ];
@@ -44,6 +50,7 @@ function App() {
           {/* Left Column */}
           <div className="w3-col m3">
             <Profile
+              name={person.name}
               picture_file_loc={person.picture_file_loc}
               jobclass={person.jobclass}
               bday={person.bday}

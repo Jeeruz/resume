@@ -1,6 +1,7 @@
 import Pictures from "./Picture";
 
 export default function Profile({
+  name,
   picture_file_loc,
   jobclass,
   bday,
@@ -10,7 +11,7 @@ export default function Profile({
   return (
     <div className="w3-card w3-round w3-white">
       <div className="w3-container">
-        <h4 className="w3-center">My Profile</h4>
+        <h4 className="w3-center">{name}</h4>
         <p className="w3-center">
           <Pictures picture_file_loc={picture_file_loc} />
         </p>
