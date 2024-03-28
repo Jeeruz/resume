@@ -1,8 +1,10 @@
 import { useState } from "react";
-import Pictures from "./components/Picture";
+import Profile from "./components/Profile";
 
 const person = {
   name: "Jefferson Dela Cruz",
+  jobclass: "Programmer",
+  bday: "Oct 21 1997",
   age: "27",
   address: "2501 Unida St.Baclaran Parañaque,Metro Manila 1702",
   contactno: "09184002589",
@@ -30,7 +32,13 @@ function App() {
 
   return (
     <div className="App">
-      <Pictures picture_file_loc={person.picture_file_loc} />
+      <Profile
+        picture_file_loc={person.picture_file_loc}
+        jobclass={person.jobclass}
+        bday={person.bday}
+        age={person.age}
+        address={person.address}
+      />
     </div>
   );
 }
