@@ -10,7 +10,7 @@ const person = {
   skills: ["SQL", "TSQL", "HTML", "Javascript", "PHP"],
   description:
     "Developer experienced in Applications programming professional with education and experience in SQL Programming. Offers reliable technical knowledge and readiness for challenging work.",
-  picture_file_loc: "./public/images/jeffdrawing.png",
+  picture_file_loc: "./images/jeffdrawing.png",
 };
 
 const experience = [
