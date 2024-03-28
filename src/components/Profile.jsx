@@ -8,16 +8,16 @@ export default function Profile({
   address,
 }) {
   return (
-    <div class="w3-card w3-round w3-white">
-      <div class="w3-container">
-        <h4 class="w3-center">My Profile</h4>
-        <p class="w3-center">
+    <div className="w3-card w3-round w3-white">
+      <div className="w3-container">
+        <h4 className="w3-center">My Profile</h4>
+        <p className="w3-center">
           <Pictures picture_file_loc={picture_file_loc} />
         </p>
         <hr />
         <p>{jobclass}</p>
         <p>
-          {bday}, {age} yrs
+          {bday}, {age}
         </p>
         <p>{address}</p>
       </div>
