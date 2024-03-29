@@ -4,9 +4,9 @@ export default function Skills({ skills }) {
       <div className="w3-container">
         <p>Skills</p>
         <p>
-          {skills.map((skill) => (
-            <span className="w3-tag w3-small w3-theme" key={skill}>
-              {skill}
+          {skills.map((skill, index) => (
+            <span className={"w3-small w3-theme-d" + (index + 1)} key={skill}>
+              {skill} <span> </span>
             </span>
           ))}
         </p>
