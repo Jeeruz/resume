@@ -9,7 +9,7 @@ import Education from "./components/Education";
 const person = {
   name: "Jefferson Dela Cruz",
   jobclass: "Programmer",
-  bday: "Oct 21 1997",
+  bday: "10/21/1997",
   age: "27",
   address: "2501 Unida St.Baclaran Parañaque",
   contactno: "09184002589",
