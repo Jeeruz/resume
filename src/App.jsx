@@ -14,7 +14,7 @@ const person = {
   address: "2501 Unida St.Baclaran Parañaque",
   contactno: "09184002589",
   email: "jdelacruz.proacc@gmail.com",
-  skills: ["SQL", "TSQL", "HTML", "Javascript", "PHP"],
+  skills: ["SQL", "TSQL", "HTML", "Javascript", "PHP", "C#", "React"],
   description:
     '"Developer experienced in Applications programming professional with education and experience in SQL Programming. Offers reliable technical knowledge and readiness for challenging work."',
   picture_file_loc: "./images/jeffdrawing.png",
